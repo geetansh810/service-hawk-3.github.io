@@ -1,0 +1,455 @@
+.nav-link {
+  font-size: small;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.app {
+  background: #ffe59b;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+}
+
+.app a {
+  font-size: 65%;
+}
+
+.app:hover {
+  color: white;
+}
+
+.landing {
+  margin-top: 2%;
+}
+
+.landing-image img {
+  width: 50vw;
+  height: 65vh;
+}
+
+.landing-text {
+  margin: 6% 0% 5% 6%;
+  width: 50vw;
+}
+
+.landing-text h2 {
+  width: 100%;
+  font-size: 2rem;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.landing-text p {
+  margin-top: 8%;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: small;
+}
+
+.landing-text div img {
+  margin-top: 3%;
+  margin-left: -2%;
+}
+
+.page-2 {
+  margin-top: 5%;
+  background: #f4f8fa;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.page-2 h2 {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page-2 p {
+  text-align: center;
+  line-height: 30px;
+}
+
+.card {
+  background: #f4f8fa;
+  margin: 0 2%;
+  border-radius: 0;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  border: none;
+}
+
+.card img {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.card h3 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card p {
+  margin-top: 10%;
+  text-align: left;
+  font-size: small;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.page-3 {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.page-3 h2 {
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+}
+
+.page-3 p {
+  text-align: center;
+  line-height: 30px;
+}
+
+.page-3 .card {
+  background: #f6f6f6;
+  border-radius: 0;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  border: none;
+  padding: 0;
+  margin: 0 2%;
+  color: black;
+}
+
+.page-3 .card img {
+  margin-top: 0;
+}
+
+.page-3 .card h3 {
+  text-align: left;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.page-3 .card p {
+  text-align: left;
+}
+
+.page-3 button span.prev-icon {
+  margin-right: 50%;
+}
+
+.page-3 button span.next-icon {
+  margin-left: 50%;
+}
+
+#page-5 .container {
+  background: #f4f8fa;
+  margin-bottom: 7%;
+}
+
+.page-5-text {
+  padding: 4%;
+  line-height: 40px;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-5-text h2 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.page-5-text p {
+  margin: 1% 1%;
+}
+
+.page-5-text ul {
+  margin: 1% 4%;
+}
+
+#carouselExampleIndicators {
+  margin-bottom: 5%;
+  background: url("bg.jpeg") no-repeat;
+  background-size: cover;
+  height: 70vh;
+  margin-top: 3%;
+}
+
+#carouselExampleIndicators button span.prev-icon {
+  z-index: 50;
+  bottom: -35%;
+  left: 210%;
+}
+
+#carouselExampleIndicators button span.next-icon {
+  z-index: 50;
+  bottom: -35%;
+  right: 210%;
+}
+
+.img-fluid {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-item {
+  color: white;
+  padding: 5%;
+  justify-items: center;
+  text-align: center;
+}
+
+.carousel-item p {
+  margin-top: 5%;
+}
+
+#image-caption {
+  margin: 5% auto;
+  background: white;
+  text-align: center;
+  color: black;
+  width: 40%;
+  font-weight: bold;
+  font-size: large;
+  font-size: medium;
+  padding-top: 1%;
+  padding-bottom: 1px;
+}
+
+#image-caption p {
+  margin-top: 1%;
+  text-align: center;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.carousel-control-prev {
+  background-color: transparent;
+  border: 0;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next {
+  background-color: transparent;
+  border: 0;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.bottom-bar {
+  background: white;
+}
+
+#app {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#app img {
+  width: 100%;
+}
+
+#contact {
+  background: black;
+  padding: 1%;
+  height: 7%;
+}
+
+#contact a {
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+}
+
+#contact img {
+  margin-right: 10%;
+}
+
+.social-media {
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer {
+  background: url("pexels-kaboompics-com-6385.jpg") no-repeat;
+  background-size: cover;
+  padding: 5%;
+  padding-left: 9%;
+  padding-right: 9%;
+  color: white;
+  line-height: 30px;
+}
+
+#footer h2 {
+  font-size: 1.8rem;
+  line-height: 50px;
+}
+
+.number {
+  background-color: white;
+  color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding: 2%;
+  width: 42%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.line {
+  padding-bottom: 1%;
+  border-bottom: 3px solid white;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.count .square {
+  background: #f6f6f6;
+  color: black;
+  width: 30px;
+  height: 30px;
+  margin-right: 1%;
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.underline-1 {
+  background: white;
+  height: 2px;
+  width: 65px;
+  border-radius: 15%;
+  margin-top: -1%;
+  margin-bottom: 4%;
+}
+
+.part {
+  background: white;
+  width: 2px;
+  border-radius: 20%;
+  height: 50%;
+}
+
+#grid {
+  margin-top: 0;
+  margin-bottom: 10%;
+}
+
+#grid .grid-start div {
+  width: 50%;
+}
+
+#grid .grid-start span {
+  width: 50%;
+}
+
+.grid-container {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 39%;
+  height: 50%;
+}
+
+.box-2 {
+  width: 19%;
+  height: 50%;
+  margin: 0 4px;
+  padding: 0 0;
+}
+
+.box-3 {
+  width: 39%;
+  height: 50%;
+}
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: left;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 2px;
+}
+
+.grid-item {
+  margin: 2px;
+}
+
+.grid-item-1 {
+  width: 40%;
+  height: 100%;
+}
+
+.grid-item-2 {
+  height: 100%;
+  width: 60%;
+}
+
+.grid-item-3 {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.grid {
+  padding: 0 0;
+  margin: 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=style.css.map */
